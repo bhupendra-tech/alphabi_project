@@ -3,6 +3,7 @@ import styles from "@/app/ui/authentication/authentication.module.css";
 import { useState } from "react";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { auth } from "@/app/firebase/config";
+import Image from "next/image";
 const SignIn = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -64,7 +65,7 @@ const SignIn = () => {
             onClick={handleSignUp}
           >
             <h6>Continue</h6>
-            <img src="./arrow_forward.svg" alt="forward arrow" />
+            <Image src="./arrow_forward.svg" alt="forward arrow" />
           </button>
         </div>
         <p className={styles.accountSubText}>

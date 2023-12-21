@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { auth } from "../firebase/config";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 const Login = () => {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
@@ -65,7 +66,7 @@ const Login = () => {
             onClick={handleSignIn}
           >
             <h6>Continue</h6>
-            <img src="./arrow_forward.svg" alt="forward arrow" />
+            <Image src="./arrow_forward.svg" alt="forward arrow" />
           </button>
         </div>
         <p className={styles.accountSubText}>
