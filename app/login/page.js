@@ -70,7 +70,7 @@ const Login = () => {
           </button>
         </div>
         <p className={styles.accountSubText}>
-          Don&apos;t have an account? <a href="./signin">Create One</a>
+          Have an account? <a href="./signin">Create One</a>
         </p>
       </div>
     </div>
