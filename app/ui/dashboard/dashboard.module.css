@@ -1,0 +1,51 @@
+#navBar {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: var(--background-color);
+}
+#centerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#inputBox {
+  max-width: 700px;
+  width: 90vw;
+  height: 3rem;
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: var(--subtleWhite);
+  box-shadow: var(--shadow);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.actionTextBtn {
+  text-decoration: none;
+  margin: 0rem 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border: none;
+}
+#gifWrapper {
+  width: 100vw;
+  justify-content: center;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 272px));
+}
+.card {
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+  padding: 1rem;
+}
