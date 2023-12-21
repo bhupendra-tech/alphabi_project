@@ -6,8 +6,8 @@ export default function NavBar() {
     <div id={styles.navBar}>
       <ProjectLogo width={50} height={50} />
       <div>
-        <TextButton buttonText={"log in"} pathString={"/login"}  />
-        <TextButton buttonText={"Sign Up"} pathString={"/signup"}/>
+        <TextButton buttonText={"log in"} pathString={"/login"} />
+        <TextButton buttonText={"Sign Up"} pathString={"/signup"} />
       </div>
     </div>
   );

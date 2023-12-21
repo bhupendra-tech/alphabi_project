@@ -66,11 +66,11 @@ const Login = () => {
             onClick={handleSignIn}
           >
             <h6>Continue</h6>
-            <Image src="./arrow_forward.svg" alt="forward arrow" />
+            <Image width={24} height={24} src="./arrow_forward.svg" alt="forward arrow" />
           </button>
         </div>
         <p className={styles.accountSubText}>
-          Don't have an account? <a href="./signin">Create One</a>
+          Don&apos;t have an account? <a href="./signin">Create One</a>
         </p>
       </div>
     </div>

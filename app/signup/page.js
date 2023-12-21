@@ -65,7 +65,7 @@ const SignIn = () => {
             onClick={handleSignUp}
           >
             <h6>Continue</h6>
-            <Image src="./arrow_forward.svg" alt="forward arrow" />
+            <Image width={24} height={24} src="./arrow_forward.svg" alt="forward arrow" />
           </button>
         </div>
         <p className={styles.accountSubText}>
